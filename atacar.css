@@ -1,0 +1,140 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.banner {
+  height: 75px;
+  background: #212a7c;
+  background: -webkit-linear-gradient(top left, #212a7c, #a90abd);
+  background: -moz-linear-gradient(top left, #212a7c, #a90abd);
+  background: linear-gradient(to bottom right, #212a7c, #a90abd);
+}
+
+.titulo {
+  position: relative;
+  display: inline-block;
+  top: -75px;
+  left: 7%;
+  transform: translate(-50%);
+}
+
+.niztlogo {
+  font-family: "Pacifico", cursive;
+  font-size: 25px;
+  text-shadow: rgb(255, 255, 255) 9px 0px 0px,
+    rgb(255, 255, 255) 8.9445px 0.997944px 0px,
+    rgb(255, 255, 255) 8.77869px 1.98358px 0px,
+    rgb(255, 255, 255) 8.50461px 2.94475px 0px,
+    rgb(255, 255, 255) 8.12565px 3.86961px 0px,
+    rgb(255, 255, 255) 7.64647px 4.74674px 0px,
+    rgb(255, 255, 255) 7.07299px 5.56533px 0px,
+    rgb(255, 255, 255) 6.41227px 6.31528px 0px,
+    rgb(255, 255, 255) 5.67248px 6.98735px 0px,
+    rgb(255, 255, 255) 4.86272px 7.57324px 0px,
+    rgb(255, 255, 255) 3.99299px 8.06573px 0px,
+    rgb(255, 255, 255) 3.07402px 8.45875px 0px,
+    rgb(255, 255, 255) 2.11714px 8.74744px 0px,
+    rgb(255, 255, 255) 1.13414px 8.92825px 0px,
+    rgb(255, 255, 255) 0.137162px 8.99895px 0px,
+    rgb(255, 255, 255) -0.861512px 8.95867px 0px,
+    rgb(255, 255, 255) -1.84956px 8.8079px 0px,
+    rgb(255, 255, 255) -2.8148px 8.5485px 0px,
+    rgb(255, 255, 255) -3.74532px 8.18368px 0px,
+    rgb(255, 255, 255) -4.62965px 7.71792px 0px,
+    rgb(255, 255, 255) -5.45689px 7.15698px 0px,
+    rgb(255, 255, 255) -6.21682px 6.50777px 0px,
+    rgb(255, 255, 255) -6.90009px 5.77831px 0px,
+    rgb(255, 255, 255) -7.49825px 4.97757px 0px,
+    rgb(255, 255, 255) -8.00394px 4.11545px 0px,
+    rgb(255, 255, 255) -8.41092px 3.20258px 0px,
+    rgb(255, 255, 255) -8.71416px 2.2502px 0px,
+    rgb(255, 255, 255) -8.90993px 1.27008px 0px,
+    rgb(255, 255, 255) -8.99582px 0.274291px 0px,
+    rgb(255, 255, 255) -8.97076px -0.72488px 0px,
+    rgb(255, 255, 255) -8.83507px -1.71511px 0px,
+    rgb(255, 255, 255) -8.59041px -2.68419px 0px,
+    rgb(255, 255, 255) -8.23981px -3.62017px 0px,
+    rgb(255, 255, 255) -7.78758px -4.51149px 0px,
+    rgb(255, 255, 255) -7.23931px -5.34718px 0px,
+    rgb(255, 255, 255) -6.60176px -6.11692px 0px,
+    rgb(255, 255, 255) -5.88279px -6.81122px 0px,
+    rgb(255, 255, 255) -5.09127px -7.42152px 0px,
+    rgb(255, 255, 255) -4.23696px -7.94029px 0px,
+    rgb(255, 255, 255) -3.33039px -8.36113px 0px,
+    rgb(255, 255, 255) -2.38275px -8.67885px 0px,
+    rgb(255, 255, 255) -1.40572px -8.88954px 0px,
+    rgb(255, 255, 255) -0.411357px -8.99059px 0px,
+    rgb(255, 255, 255) 0.58808px -8.98077px 0px,
+    rgb(255, 255, 255) 1.58026px -8.86018px 0px,
+    rgb(255, 255, 255) 2.55296px -8.63032px 0px,
+    rgb(255, 255, 255) 3.49417px -8.29402px 0px,
+    rgb(255, 255, 255) 4.39229px -7.85543px 0px,
+    rgb(255, 255, 255) 5.23623px -7.31996px 0px,
+    rgb(255, 255, 255) 6.0156px -6.69422px 0px,
+    rgb(255, 255, 255) 6.72078px -5.98591px 0px,
+    rgb(255, 255, 255) 7.34307px -5.20378px 0px,
+    rgb(255, 255, 255) 7.87479px -4.35748px 0px,
+    rgb(255, 255, 255) 8.3094px -3.45743px 0px,
+    rgb(255, 255, 255) 8.64153px -2.51474px 0px,
+    rgb(255, 255, 255) 8.86709px -1.54104px 0px,
+    rgb(255, 255, 255) 8.98328px -0.548328px 0px;
+  text-align: center;
+  padding: 25px 0px 5px 0px;
+}
+
+.nizttitulo {
+  text-decoration: none;
+  color: inherit;
+}
+
+.clases {
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+  margin: 50px 10px 0 10px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.segundur {
+  margin: 75px;
+  font-family: "Tajawal", sans-serif;
+  text-align: center;
+}
+
+.fill {
+  font-family: "Tajawal", sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 50px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  display: ;
+}
+
+.fill::after {
+  content: "";
+  background-color: lightblue;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.fill:hover::after {
+  top: 0px;
+  left: 0px;
+}
+
+.hide {
+  display: none;
+}
